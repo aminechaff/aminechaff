@@ -1,43 +1,62 @@
-# Salut, moi c'est aminechaff 👋
+# aminechaff 👋
 
-**Systèmes, réseaux et cybersécurité.**
+**Administration systèmes & réseaux · Cybersécurité · Développement d’outils**
 
-J'aime comprendre comment les choses fonctionnent, trouver pourquoi elles ne fonctionnent plus et automatiser ce qui revient trop souvent.
+Je travaille sur des infrastructures Windows/Linux et je développe des outils autour du réseau, de l’automatisation et de l’analyse de données.
 
-Ce GitHub rassemble mes projets d'infrastructure, mes expériences en sécurité et quelques outils personnels. Il y a aussi du sim racing et de l'audio : des sujets qui me donnent l'occasion de construire autre chose et d'apprendre au passage.
+J’aime autant monter un environnement que comprendre ce qui se passe à l’intérieur : suivre un échange réseau, chercher l’origine d’un incident ou écrire un script pour simplifier une tâche.
 
-## 🔧 Mes projets
+Ce profil rassemble des travaux en équipe, des laboratoires et des projets personnels. Chaque dépôt précise son contexte et son état d’avancement.
 
-### [NovaTech - Infrastructure multi-sites](https://github.com/aminechaff/infrastructure-lab-novatech)
+## Infrastructure & sécurité
 
-Un projet collectif autour de Proxmox, FreeIPA et du stockage, avec de l'automatisation Terraform/Ansible et des sauvegardes Restic. Le dépôt rassemble les configurations et la documentation d'architecture.
+### [NovaTech — Infrastructure multi-sites](https://github.com/aminechaff/infrastructure-lab-novatech)
+Un projet collectif qui relie architecture, gestion des identités, stockage et sauvegardes. Le dépôt rassemble les configurations, les choix techniques et la documentation de l’infrastructure.
 
-### [CodeMax - Audit en laboratoire](https://github.com/aminechaff/security-audit-lab-codemax)
+`Proxmox` · `FreeIPA` · `Terraform` · `Ansible` · `Restic`
 
-Un environnement DVWA sous Docker pour étudier des vulnérabilités web et analyser du trafic réseau. J'y regroupe les observations du laboratoire et les recommandations associées.
+### [CodeMax — Audit en laboratoire](https://github.com/aminechaff/security-audit-lab-codemax)
+Étude d’une application volontairement vulnérable dans un environnement Docker. Analyse des échanges réseau, relevé d’indicateurs et recommandations à partir des observations du laboratoire.
 
-### [SRM Lab - Télémétrie iRacing](https://github.com/aminechaff/SRM_Lab)
+`DVWA` · `Docker` · `TShark` · `Analyse réseau`
 
-Un projet lié au sim racing : afficher la télémétrie dans un overlay Windows et composer ses tableaux de bord. Python côté serveur, Electron pour l'application. Ce dépôt présente le projet ; les sources restent privées.
+### [Protocol Analysis Lab — Réseau & identité applicative](https://github.com/aminechaff/protocol-analysis-lab)
+Comment reconstruire des messages à partir d’un flux TCP ? Que représente l’identifiant machine vu par une application ?
 
-### [Voice Master - Transcription locale](https://github.com/aminechaff/voice-master)
+Une étude anonymisée qui explique la démarche, avec deux démonstrations synthétiques exécutables et leurs limites.
 
-Une application Windows pour transcrire le microphone et le son du PC avec Faster-Whisper. Le traitement se fait localement, avec une interface pour récupérer le texte.
+`TCP` · `Formats binaires` · `Identité applicative` · `Node.js`
 
-### [Try_Tools - Outils d'audit](https://github.com/aminechaff/try-tools)
+### [Try_Tools — Contrôles et rapports](https://github.com/aminechaff/try-tools)
+Un prototype pour réunir plusieurs contrôles derrière une même interface : définir le périmètre, exécuter les plugins et regrouper leurs observations dans un rapport.
 
-Un prototype Python pour rassembler plusieurs contrôles dans un même rapport. Je travaille sur le fonctionnement des plugins, la définition du périmètre et la présentation des résultats. Le projet est encore en construction.
+`Python` · `Plugins` · `Tests` · `Markdown / JSON`
 
-## 🧰 Avec quoi je travaille
+## Applications personnelles
 
-- **Systèmes :** Windows Server, Linux, Active Directory, FreeIPA.
-- **Infrastructure :** Proxmox, VMware, Docker, stockage et sauvegardes.
-- **Réseau :** VLAN, DNS, DHCP, pfSense, OPNsense et VPN.
-- **Automatisation :** PowerShell, Bash, Python, Ansible et Terraform.
-- **Supervision et analyse :** Zabbix, Grafana, TShark et captures PCAP.
+### [SRM Lab — Télémétrie iRacing](https://github.com/aminechaff/SRM_Lab)
+Le sim racing m’a donné un autre terrain d’expérimentation : récupérer la télémétrie, l’afficher en direct et composer des tableaux de bord dans un overlay Windows.
 
-Les dépôts montrent dans quel contexte j'utilise ces outils.
+Le dépôt public présente l’application ; les sources restent privées.
 
-## 🌱 Ce que je creuse
+`Python` · `Electron` · `SDK iRacing` · `Widgets`
 
-L'analyse d'incidents, l'automatisation des infrastructures et les tests de restauration. Je cherche aussi à mieux documenter mes projets : expliquer les choix, ce qui fonctionne et ce qui reste à améliorer.
+### [Voice Master — Transcription locale](https://github.com/aminechaff/voice-master)
+Une application Windows pour transformer le son du microphone et du PC en texte. Elle associe capture audio, transcription locale et présentation chronologique des interventions.
+
+`Python` · `Faster-Whisper` · `Audio Windows`
+
+## Mes outils
+
+| Domaine | Environnements et outils utilisés |
+| --- | --- |
+| Systèmes & identités | Windows Server, Linux, Active Directory, FreeIPA |
+| Virtualisation & services | Proxmox, VMware, Docker |
+| Réseau | VLAN, DNS, DHCP, pfSense, OPNsense, VPN |
+| Automatisation | PowerShell, Bash, Python, Ansible, Terraform |
+| Sauvegarde & supervision | Restic, Zabbix, Grafana |
+| Analyse | TShark, captures PCAP, analyse de protocoles |
+
+## En cours
+
+J’approfondis l’analyse d’incidents et l’automatisation des infrastructures. Sur mes projets, je travaille aussi à rendre les tests plus reproductibles et la documentation plus utile : pouvoir reprendre un environnement, comprendre un choix et vérifier un résultat.
