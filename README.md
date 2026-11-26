@@ -20,7 +20,7 @@ Un lab DVWA sous Docker pour étudier des vulnérabilités web et observer les �
 
 Une étude sur les échanges TCP, le décodage de messages et les identifiants vus par une application. J'y explique la démarche avec des schémas et deux petits exemples exécutables.
 
-La présentation est anonymisée. Les démonstrations utilisent des données fictives et ne modifient pas le système.
+La présentation est anonymisée. Les démonstrations utilisent des données fictives et ne modifient pas le système (mitm).
 
 ### [Try_Tools - Outils d'audit](https://github.com/aminechaff/try-tools)
 
